@@ -1,0 +1,12 @@
+{
+  "name": "pan_od_muzyki",
+  "version": "1.0.0",
+  "description": "website of music school project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lukasz Rozylo",
+  "license": "ISC",
+  "dependencies": {}
+}
