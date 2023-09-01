@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(192, 235, 192);
+}
+
 .navbar {
   border: 3px solid green;
   padding: 30px 10%;
@@ -8,13 +12,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  list-style-type: none;
+}
+
+.fixed_background_color {
+  background-color: rgb(163, 236, 163);
 }
 
 .offert-list {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: aquamarine;
+  background-color: rgb(163, 236, 163);
+  list-style-type: none;
 }
 
 .footer {

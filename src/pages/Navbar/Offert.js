@@ -10,35 +10,37 @@ export function Offert() {
   return (
     <>
       <nav>
-        <h1
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          Proszę wybrać instrument / zajęcia
-        </h1>
-        <ul className="offert-list">
-          <li>
-            <NavLink to="/offert/piano">Fortepian</NavLink>
-          </li>
-          <li>
-            <NavLink to="/offert/organ">Organy</NavLink>
-          </li>
-          <li>
-            <NavLink to="/offert/theory">Teoria</NavLink>
-          </li>
-          <li>
-            <NavLink to="/offert/violin">Skrzypce</NavLink>
-          </li>
-          <li>
-            <NavLink to="/offert/clarnet">Klarnet</NavLink>
-          </li>
-          <li>
-            <NavLink to="/offert/concertos">Koncerty</NavLink>
-          </li>
-        </ul>
+        <div className="fixed_background_color">
+          <h1
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            Proszę wybrać instrument / zajęcia
+          </h1>
+          <ul className="offert-list">
+            <li>
+              <NavLink to="/offert/piano">Fortepian</NavLink>
+            </li>
+            <li>
+              <NavLink to="/offert/organ">Organy</NavLink>
+            </li>
+            <li>
+              <NavLink to="/offert/theory">Teoria</NavLink>
+            </li>
+            <li>
+              <NavLink to="/offert/violin">Skrzypce</NavLink>
+            </li>
+            <li>
+              <NavLink to="/offert/clarnet">Klarnet</NavLink>
+            </li>
+            <li>
+              <NavLink to="/offert/concertos">Koncerty</NavLink>
+            </li>
+          </ul>
+        </div>
       </nav>
 
       <Routes>
