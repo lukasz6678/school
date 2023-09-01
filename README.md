@@ -1,1 +1,1 @@
-result of a merge beetwen newbranch and main!
+Homepage of my music school & practice of building ReactApp.
