@@ -1,11 +1,16 @@
 body {
   background-color: rgb(192, 235, 192);
+  text-align: center;
 }
 
 .navbar {
   border: 3px solid green;
-  padding: 30px 10%;
+  padding: 2%;
   background-color: rgb(163, 236, 163);
+}
+
+li {
+  list-style-type: none;
 }
 
 .list {

@@ -11,15 +11,7 @@ export function Offert() {
     <>
       <nav>
         <div className="fixed_background_color">
-          <h1
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            Proszę wybrać instrument / zajęcia
-          </h1>
+          <h3>Proszę wybrać instrument / zajęcia</h3>
           <ul className="offert-list">
             <li>
               <NavLink to="/offert/piano">Fortepian</NavLink>
