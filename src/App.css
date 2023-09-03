@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: rgb(192, 235, 192);
   text-align: center;
 }
@@ -33,9 +33,9 @@ li {
 }
 
 .footer {
-  display: flex;
   width: 100%;
-  position: fixed;
+  height: 11%;
+  position: relative;
   left: 0;
   bottom: 0;
   background-color: rgb(163, 236, 163);
@@ -46,4 +46,4 @@ li {
 a:-webkit-any-link {
   text-decoration: none;
   color: inherit;
-}
+} */
