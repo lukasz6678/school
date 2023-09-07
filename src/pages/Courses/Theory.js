@@ -12,6 +12,13 @@ export function Theory() {
         <strong>korepetycje z kształcenia słuchu i teorii muzyki</strong> przez
         ważnymi egzaminami.
       </p>
+      <img src="" alt="lekcja teorii" />
+      <p className="corepetitions_offert">
+        Zapraszamy także uczniów Szkół Muzycznych, potrzebujących korepetycji,
+        lekcji uzupełniających bądź doraźnych konsultacji. Nasi pedagodzy są
+        przygotowani, by pomóc w takiej sytuacji, opracować bądź skorygować plan
+        ćwiczenia, projektowo przygotować ucznia do nadchodzącego egzaminu.
+      </p>
     </>
   );
 }

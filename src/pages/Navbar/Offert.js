@@ -5,6 +5,7 @@ import { Piano } from "../Courses/Piano";
 import { Theory } from "../Courses/Theory";
 import { Violin } from "../Courses/Violin";
 import { Concertos } from "../Courses/Concertos";
+import { MuiTypography } from "../Courses/MuiTypography.js";
 
 export function Offert() {
   return (
@@ -31,6 +32,9 @@ export function Offert() {
             <li>
               <NavLink to="/offert/concertos">Koncerty</NavLink>
             </li>
+            <li>
+              <NavLink to="/offert/mui">Practicing MUI</NavLink>
+            </li>
           </ul>
         </div>
       </nav>
@@ -42,6 +46,7 @@ export function Offert() {
         <Route path="violin" element={<Violin />} />
         <Route path="clarnet" element={<Clarnet />} />
         <Route path="concertos" element={<Concertos />} />
+        <Route path="mui" element={<MuiTypography />} />
       </Routes>
     </>
   );
